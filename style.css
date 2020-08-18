@@ -21,7 +21,7 @@ body {
 }
 
 .line {
-  border: 1px solid #6219ff">
+  border: 1px solid #6219ff;
 
 }
 
@@ -30,28 +30,17 @@ body {
 }
 
 .row {
-  display: -ms-flexbox;
-
   display: flex;
-  -ms-flex-wrap: wrap;
-
-  flex-wrap: wrap;
-  padding: 0 4px;
 }
 
-
 .column {
-  -ms-flex: 25%;
-
-  flex: 25%;
   max-width: 25%;
   padding: 0 4px;
 }
 
 .column img {
-  margin-top: 8px;
   vertical-align: middle;
-  width: 100%;
+
 }
 
 .bg {
