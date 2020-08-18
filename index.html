@@ -24,73 +24,66 @@
 
   <!-- Header -->
 
-  <div class="header">
+  <nav class="navbar navbar-expand-lg navbar-light header">
+    <div class="container">
+      <a class="navbar-brand" href="/">
+        <h3 class="font-weight-bolder font-italic">HUEPODCAST</h3>
+      </a>
+      <form class="form-inline my-2 my-lg-0">
 
-    <nav class="navbar navbar-expand-lg navbar-light ">
-      <div class="container">
-        <a class="navbar-brand" href="/">
-          <h3 class="font-weight-bolder font-italic">HUEPODCAST</h3>
-        </a>
-        <form class="form-inline my-2 my-lg-0">
+        <ul class="navbar-nav h6">
+          <li class="nav-item my-3 my-sm-0 ">
+            <a class="nav-link" href="#">
+              Podcast </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link my-3 my-sm-0 " href="#">
+              Blog
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link my-3 my-sm-0 " href="#">
+              About
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link my-3 my-sm-0 " href="#">
+              Contact
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link my-3 my-sm-0 " href="#">
+              Elements
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link my-4 my-sm-0 " href="#">
+              Log ln
+            </a>
+          </li>
+          <button class="btn btn-sm ml-3 my-sm-0 " type="submit">Sign up</button>
+          <i onclick="myFunction()" class="fa fa-adjust ml-4 "></i>
 
-          <ul class="navbar-nav h6">
-            <li class="nav-item my-3 my-sm-0 ">
-              <a class="nav-link" href="#">
-                Podcast </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link my-3 my-sm-0 " href="#">
-                Blog
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link my-3 my-sm-0 " href="#">
-                About
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link my-3 my-sm-0 " href="#">
-                Contact
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link my-3 my-sm-0 " href="#">
-                Elements
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link my-3 my-sm-0 " href="#">
-                Log ln
-              </a>
-            </li>
-            <button class="btn btn-sm my-3 mr-0 my-sm-0 " type="submit">Sign up</button>
-            <i onclick="myFunction()" class="fa fa-adjust ml-4 "></i>
+          <i class="fa fa-search ml-4"></i>
+        </ul>
+      </form>
+    </div>
+  </nav>
 
-            <i class="fa fa-search ml-4"></i>
-          </ul>
-        </form>
-      </div>
-    </nav>
-  </div>
+  <div class="d-flex flex-row header">
+    <div class="container flex-row header ">
 
-  <div class="row header mb-4 p-5 ">
-    <div class="container mb-4 mx-auto ">
-      <div class="row">
-        <div class="col-sm-6 my-auto mx-auto">
-          <h1 class="font-weight-bold ">Hue Podcast</h1>
-          <p>A Podcasting Theme for the Ghost CMS with membership and subscription built-in.</p>
-
+      <a href="#" class="d-flex flex-row mb-3 align-items-center text-decoration-none">
+        <div>
+          <h1 class="font-weight-bold text-dark ">
+            Hue Podcast
+          </h1>
+          <p class="text-dark">A Podcasting Theme for the Ghost CMS with membership and subscription built-in.</p>
         </div>
-        <div class="border-0 ">
-
-          <div class="col-sm-6 m-0">
-
-
-            <img src="lady.jpg" class=" p-2 border-0" height="300" width="400" alt="image">
-
-          </div>
+        <div class="mx-auto">
+          <img src="lady.jpg" class="  border-0 mt-0 p-5" height="300" width="400" alt="image">
         </div>
-      </div>
+      </a>
     </div>
   </div>
   <!-- Blog posts -->
@@ -103,7 +96,7 @@
 
         <a href="#" class="card card-inverse mb-0 bg-white ">
           <img src="../images/img2.jpeg" class="card-img-top img-fluid border-0" height=" 500" width="400"" alt=" ...">
-          <div class="card-img-overlay d-flex flex-column align-content-end">
+          <div class="card-img-overlay d-flex flex-column align-content-end rounded-0">
             <div class="mt-auto">
               <h1 class="card-title text-light bottom-left">Zorify Newsletter</h1>
               <h6 class="card-subtit text-light">Join Zorify Newsletter to receive the latest updates in your inbox</h6>
@@ -219,20 +212,21 @@
   <!-- Footer -->
   <footer class=" border-top ">
     <div class="container text-center text-md-left">
-      <div class="row">
 
-        <div class="col-md-12 text-center pb-4">
-          <i class="fa fa-twitter px-1 text-muted"></i>
-          <i class="fa fa-facebook  px-1 text-muted"></i>
 
-          <i class="fa fa-instagram  px-1 text-muted"></i>
-          <i class="fa fa-wifi px-1 text-muted"></i>
+      <div class="text-center">
+        <i class="fa fa-twitter px-2 text-muted"></i>
+        <i class="fa fa-facebook  px-2 text-muted"></i>
 
-          <p class="m-0 text-muted">© 2020 Hue Podcast - Published with Ghost & Hue</p>
-        </div>
+        <i class="fa fa-instagram  px-2 text-muted"></i>
+        <i class="fa fa-wifi px-2 text-muted"></i>
+
+        <p class="m-0 text-muted">© 2020 Hue Podcast - Published with Ghost & Hue</p>
       </div>
     </div>
+
   </footer>
+
 
 
   <script>

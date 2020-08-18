@@ -47,3 +47,8 @@ body {
   background-color: #F4F0EB;
 
 }
+
+.bhn,
+.card {
+  border-radius: 0;
+}
