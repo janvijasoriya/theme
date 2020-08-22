@@ -45,7 +45,8 @@ body {
 }
 
 .bhn,
-.card {
+.card,
+.card-img-overlay {
   border-radius: 0;
   border: 0;
 }
