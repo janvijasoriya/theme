@@ -9,6 +9,13 @@ footer,
   background-color: #6219ff;
 }
 
+body {
+
+  background-color: #fff;
+  color: black;
+
+}
+
 
 
 .line {
@@ -16,7 +23,23 @@ footer,
 
 }
 
+* {
+  box-sizing: border-box;
+}
 
+.row {
+  display: flex;
+}
+
+.column {
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  vertical-align: middle;
+
+}
 
 .bhn,
 .card,
