@@ -9,40 +9,14 @@ footer,
   background-color: #6219ff;
 }
 
-body {
 
-  background-color: #fff;
-  color: black;
-
-}
-
-.dark-mode {
-  background-color: black;
-  color: #fff;
-}
 
 .line {
   border: 2px solid #6219ff;
 
 }
 
-* {
-  box-sizing: border-box;
-}
 
-.row {
-  display: flex;
-}
-
-.column {
-  max-width: 25%;
-  padding: 0 4px;
-}
-
-.column img {
-  vertical-align: middle;
-
-}
 
 .bhn,
 .card,
